@@ -54,7 +54,7 @@ class App extends Component {
                 <div className="col-9 mx-auto col-md-6 col-xs-5 title-container">
                   <Title />
                 </div>
-                <div className="col-xs-7- form-container">
+                <div className="col-9 mx-auto col-md-6 col-xs-5 form-container">
                   <Form getWeather={this.getWeather} />
                   <Weather
                     temperature={this.state.temperature}
